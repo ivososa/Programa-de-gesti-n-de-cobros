@@ -10,7 +10,7 @@ por este requerimiento, incluyendo también convenciones de estilo y otros aspec
 para operar con registros de ese tipo.
 • En otro módulo, incluir el programa principal y las funciones generales que sean necesarias. Para la carga de
 datos, aplique las validaciones que considere necesarias. El programa debe basarse en un menú de opciones
-para desarrollar las siguientes tareas:
+para desarrollar las siguientes tareas...
 
 [1]. Generar un arreglo de n registros de tipo Ticket que contenga los datos de los cobros realizados (cargue el valor de
 n por teclado validando que sea correcto). Puede generar el arreglo cargando los datos en forma manual o
