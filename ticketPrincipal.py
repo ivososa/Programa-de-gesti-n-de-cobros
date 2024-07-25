@@ -87,20 +87,14 @@ def menu():
 
 
 def addInOrder(tickets, x):
-    n = len(tickets)
-    izq, der = 0, n -1
-    pos = der
+    izq, der = 0, len(tickets) - 1
     while izq <= der:
         c = (izq + der) // 2
-        if tickets[c].num == x.num:
-            pos = c
-        elif x.num < tickets[c].num:
+        if x.num < tickets[c].num:
             der = c - 1
-        elif x.num > tickets[c].num:
+        else:
             izq = c + 1
-    if izq < der:
-        pos = izq
-    tickets[pos:pos] = [x]
+    tickets.insert(izq, x)
 
 
 def generarArreglo(tickets, n):
